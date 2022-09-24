@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Stack } from '@mui/material'
 import { categories } from '../utils/constants'
 
-const SideBar = () => {
-    const [selectedCategory, setSelectedCategory] = useState('new')
+const SideBar = ({ selectedCategory, setSelectedCategory }) => {
+    
   return (
     <Stack
       direction='row'
