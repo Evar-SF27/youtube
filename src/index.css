@@ -67,9 +67,10 @@ a {
     height:35px !important;
     padding:10px 10px 10px 10px;
   }
-.copyright{
-  display:none !important;
-}
+
+  .copyright{
+    display:none !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -80,6 +81,7 @@ a {
   .react-player {
     height: 45vh !important;
   }
+  
   .search-bar{
     width:200px;
   }

@@ -10,7 +10,7 @@ const SideBar = ({ selectedCategory, setSelectedCategory }) => {
       gap={2}
       sx={{
         overflow: 'auto',
-        width: { md: '220px' },
+        width: { md: '200px' },
         height: { md: '77vh' },
         ml: 4,
         flexDirection: { md: 'column' },
